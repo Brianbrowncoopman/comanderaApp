@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">ComanderaApp</string>
+    <string name="tvPastel">Pastel de Choclo</string>
+    <string name="tvCantidad1">Cantidad</string>
+    <string name="tvTotalUnidad1">$123456</string>
+    <string name="tvCazuela">Cazuela</string>
+    <string name="tvCantidad2">Cantidad</string>
+    <string name="tvTotalUnidad2">$123456</string>
+    <string name="tvTotalComida">$123456</string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name="todo">TODO</string>
+    <string name="pastel_de_choclo">Pastel de Choclo</string>
 </resources>
