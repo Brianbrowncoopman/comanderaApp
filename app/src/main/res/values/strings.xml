@@ -1,6 +1,16 @@
 <resources>
     <string name="app_name">ComanderaApp</string>
-    <string name="tvPastel">Pastel de Choclo</string>
+
+    <string name="pastel_de_choclo">Pastel de Choclo</string>
+    <string name="cazuela">Cazuela</string>
+    <string name="etiqueta_cantidad">Cantidad</string>
+    <string name="etiqueta_comida">Comida</string>
+    <string name="etiqueta_propina">Propina</string>
+    <string name="etiqueta_total">Total</string>
+    <string name="etiqueta_todo">Ícono</string>
+
+    <string name="valor_cero">$0</string>
+
     <string name="tvCantidad1">Cantidad</string>
     <string name="tvTotalUnidad1">$123456</string>
     <string name="tvCazuela">Cazuela</string>
@@ -8,5 +18,4 @@
     <string name="tvTotalUnidad2">$123456</string>
     <string name="tvTotalComida">$123456</string>
     <string name="todo">TODO</string>
-    <string name="pastel_de_choclo">Pastel de Choclo</string>
 </resources>

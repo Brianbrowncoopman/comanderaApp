@@ -90,7 +90,7 @@
         app:layout_constraintHorizontal_bias="0.068"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.794" />
+        app:layout_constraintVertical_bias="0.805" />
 
     <TextView
         android:id="@+id/tvCazuela"
@@ -130,7 +130,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.185"
         app:layout_constraintStart_toEndOf="@+id/tvCantidad1"
-        app:layout_constraintTop_toBottomOf="@+id/tvPastel" />
+        app:layout_constraintTop_toBottomOf="@+id/tvPastel"
+        tools:ignore="LabelFor"/>
 
     <TextView
         android:id="@+id/tvComida"
@@ -233,7 +234,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/etncantidad1"
         app:layout_constraintTop_toBottomOf="@+id/etncantidad1"
-        app:layout_constraintVertical_bias="0.24" />
+        app:layout_constraintVertical_bias="0.24"
+        tools:ignore="LabelFor"/>
 
     <ImageView
         android:id="@+id/imageView2"
