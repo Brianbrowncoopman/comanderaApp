@@ -8,6 +8,8 @@
     <string name="etiqueta_propina">Propina</string>
     <string name="etiqueta_total">Total</string>
     <string name="etiqueta_todo">Ícono</string>
+    <string name="footer">Brian Brown Coopman</string>
+    <string name="version">v1.0 - 2025</string>
 
     <string name="valor_cero">$0</string>
 
@@ -18,4 +20,18 @@
     <string name="tvTotalUnidad2">$123456</string>
     <string name="tvTotalComida">$123456</string>
     <string name="todo">TODO</string>
+    <string name="comida">Comida</string>
+    <string name="propina">Propina</string>
+    <string name="total">Total</string>
+    <string name="numero_any">123456</string>
+    <string name="header_app_name">ComanderaApp</string>
+    <string name="header_curso">Programación 2 - Bimestre 5</string>
+    <string name="header_institucion">IPLACEX</string>
+    <string name="nombre">ComanderaApp</string>
+    <string name="programacion">Programación 2 - Bimestre 5</string>
+    <string name="iplacex">IPLACEX</string>
+
+
+
+
 </resources>

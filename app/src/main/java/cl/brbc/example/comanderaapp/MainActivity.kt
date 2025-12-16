@@ -13,10 +13,11 @@ import cl.brbc.example.comanderaapp.modelo.ItemMenu.Companion.pastel_choclo
 import cl.brbc.example.comanderaapp.modelo.ItemMenu.Companion.precio_cazuela
 import cl.brbc.example.comanderaapp.modelo.ItemMenu.Companion.precio_pastel
 import java.text.NumberFormat
+import java.util.Locale
 
 class MainActivity : AppCompatActivity() {
     /*variables*/
-    private var switchCalcularPropina: Switch = null
+    private var switchCalcularPropina: Switch? = null
     private var etCantidadPastel: EditText? = null
     private var etCantidadCazuela: EditText? = null
     private var tvTotalUnidad1: TextView? = null
@@ -61,9 +62,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun configurarListeners() {
         val textWatcher = object : TextWatcher {
-            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int after: Int){}
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int){}
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int){}
-            override fun afterTextChanged(s: Editable){
+            override fun afterTextChanged(s: Editable?){
                 calcularCuenta()
             }
         }
@@ -91,7 +92,7 @@ class MainActivity : AppCompatActivity() {
         val subTotalPastel = cantidadPastel * precio_pastel
         val subTotalCazuela = cantidadCazuela * precio_cazuela
 
-        actualizarTotalesUnidad(subtotalPastel, subTotalCazuela)
+        actualizarTotalesUnidad(subTotalPastel, subTotalCazuela)
 
         cuentaMesa.getItems().clear()
 

@@ -75,6 +75,6 @@ class CuentaMesa(private val mesa: Int = 1) {
     }
 
 
-    fun getItems(): List<ItemMesa> = _items.toList()
+    fun getItems(): MutableList<ItemMesa> = _items
 }
 
