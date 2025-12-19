@@ -6,9 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#F0F5F4"
-    >
-
+    android:background="#F0F5F4">
 
     <View
         android:id="@+id/headerBackground"
@@ -56,11 +54,6 @@
             android:textStyle="italic" />
     </LinearLayout>
 
-
-
-
-
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
@@ -71,11 +64,8 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/headerBackground"
-        app:layout_constraintVertical_bias="0.089"
+        app:layout_constraintVertical_bias="0.038"
         app:srcCompat="@drawable/logo" />
-
-
-
 
     <TextView
         android:id="@+id/tvPastel"
@@ -86,53 +76,46 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.083" />
+        app:layout_constraintTop_toBottomOf="@+id/headerContainer"
+        app:layout_constraintVertical_bias="0.235" />
 
     <TextView
         android:id="@+id/tvCantidad1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="-10dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="396dp"
+        android:layout_marginTop="20dp"
         android:text="@string/tvCantidad1"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/tvPastel"
-        app:layout_constraintTop_toBottomOf="@+id/tvPastel"
-        app:layout_constraintVertical_bias="0.291" />
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPastel" />
 
     <TextView
         android:id="@+id/tvTotalUnidad1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="180dp"
-        android:layout_marginBottom="404dp"
+        android:layout_marginTop="20dp"
         android:text="@string/tvTotalUnidad1"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/tvCantidad1"
-        app:layout_constraintTop_toBottomOf="@+id/tvCantidad1"
-        app:layout_constraintVertical_bias="0.444" />
-
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCantidad1" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="123dp"
+        android:layout_height="95dp"
+        android:layout_marginBottom="252dp"
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintHorizontal_bias="0.055"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.548"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.701"
         app:srcCompat="@drawable/cazuela" />
 
     <Switch
@@ -158,37 +141,34 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/tvPastel"
-        app:layout_constraintTop_toBottomOf="@+id/tvPastel"
+        app:layout_constraintTop_toBottomOf="@+id/tvTotalUnidad1"
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/tvCantidad2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="-10dp"
+        android:layout_marginTop="20dp"
         android:text="@string/tvCantidad2"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/tvCazuela"
-        app:layout_constraintTop_toBottomOf="@+id/tvCazuela"
-        app:layout_constraintVertical_bias="0.089" />
+        app:layout_constraintTop_toBottomOf="@+id/tvCazuela" />
 
     <EditText
         android:id="@+id/etncantidad1"
         android:layout_width="80dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="444dp"
-        android:ems="10"
+        android:layout_marginTop="276dp"
         android:autofillHints=".."
+        android:ems="10"
         android:inputType="number"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.185"
-        app:layout_constraintStart_toEndOf="@+id/tvCantidad1"
-        app:layout_constraintTop_toBottomOf="@+id/tvPastel"
-        tools:ignore="LabelFor"/>
+        app:layout_constraintHorizontal_bias="0.839"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/headerBackground"
+        tools:ignore="LabelFor" />
 
     <TextView
         android:id="@+id/tvComida"
@@ -281,34 +261,34 @@
         app:layout_constraintTop_toBottomOf="@+id/tvCantidad2"
         app:layout_constraintVertical_bias="0.055" />
 
-
     <EditText
         android:id="@+id/etncantidad2"
         android:layout_width="79dp"
         android:layout_height="48dp"
-        android:ems="10"
-        android:textSize="16sp"
-        android:inputType="number"
+        android:layout_marginBottom="320dp"
         android:autofillHints=".."
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/etncantidad1"
+        app:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etncantidad1"
-        app:layout_constraintVertical_bias="0.24"
-        tools:ignore="LabelFor"/>
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="LabelFor" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="125dp"
+        android:layout_height="100dp"
         android:contentDescription="@string/todo"
-        app:layout_constraintBottom_toTopOf="@+id/imageView3"
-        app:layout_constraintEnd_toEndOf="@+id/imageView3"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintBottom_toTopOf="@+id/footer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.844"
+        app:layout_constraintVertical_bias="0.391"
         app:srcCompat="@drawable/pastel" />
 
     <LinearLayout
@@ -337,6 +317,5 @@
             android:textColor="#1E1F1F"
             android:textSize="10sp" />
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

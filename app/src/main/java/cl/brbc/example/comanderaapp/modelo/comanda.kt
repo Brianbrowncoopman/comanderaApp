@@ -49,16 +49,13 @@ class CuentaMesa(private val mesa: Int = 1) {
         }
     }
 
-
     fun agregarItem(itemMesa: ItemMesa) {
         _items.add(itemMesa)
     }
 
-
     fun calcularTotalSinPropina(): Int {
         return _items.sumOf { it.calcularSubtotal() }
     }
-
 
     fun calcularPropina(): Int {
         if (aceptaPropina) {
@@ -69,11 +66,9 @@ class CuentaMesa(private val mesa: Int = 1) {
         return 0
     }
 
-
     fun calcularTotalConPropina(): Int {
         return calcularTotalSinPropina() + calcularPropina()
     }
-
 
     fun getItems(): MutableList<ItemMesa> = _items
 }

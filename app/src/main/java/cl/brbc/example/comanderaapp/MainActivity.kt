@@ -1,5 +1,4 @@
 package cl.brbc.example.comanderaapp
-
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
@@ -28,9 +27,8 @@ class MainActivity : AppCompatActivity() {
 
     private val cuentaMesa = CuentaMesa()
 
-    private val currencyFormat: NumberFormat = NumberFormat.getCurrencyInstance(Locale("es", "CL"))
-
-
+    private val currencyFormat: NumberFormat = NumberFormat.getCurrencyInstance(
+        Locale("es", "CL"))
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -44,7 +42,6 @@ class MainActivity : AppCompatActivity() {
 
         actualizarTotalesUnidad(0, 0)
         actualizarTotalesCuenta()
-
     }
 
     private fun inicializarVistas() {
@@ -57,7 +54,6 @@ class MainActivity : AppCompatActivity() {
         tvTotalComida = findViewById(R.id.tvTotalComida)
         tvTotalPropina = findViewById(R.id.tvTotalPropina)
         tvTotalNumerico = findViewById(R.id.tvTotalNumerico)
-
     }
 
     private fun configurarListeners() {
@@ -123,7 +119,5 @@ class MainActivity : AppCompatActivity() {
         tvTotalNumerico?.text = currencyFormat.format(totalFinal)
 
     }
-
-
 
 }

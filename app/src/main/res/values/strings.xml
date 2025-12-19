@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">ComanderaApp</string>
-
     <string name="pastel_de_choclo">Pastel de Choclo</string>
     <string name="cazuela">Cazuela</string>
     <string name="etiqueta_cantidad">Cantidad</string>
@@ -10,9 +9,7 @@
     <string name="etiqueta_todo">Ícono</string>
     <string name="footer">Brian Brown Coopman</string>
     <string name="version">v1.0 - 2025</string>
-
     <string name="valor_cero">$0</string>
-
     <string name="tvCantidad1">Cantidad</string>
     <string name="tvTotalUnidad1">$123456</string>
     <string name="tvCazuela">Cazuela</string>
@@ -30,8 +27,4 @@
     <string name="nombre">ComanderaApp</string>
     <string name="programacion">Programación 2 - Bimestre 5</string>
     <string name="iplacex">IPLACEX</string>
-
-
-
-
 </resources>
